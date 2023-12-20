@@ -11,7 +11,7 @@
 }
 .flex-page3,
 .flex-page4,
-.intro-to-computing2 {
+.Title {
   position: absolute;
   top: 0;
   left: 1626px;
@@ -20,7 +20,7 @@
   height: 30px;
 }
 .flex-page4,
-.intro-to-computing2 {
+.Title {
   left: 150px;
   font-size: var(--font-size-13xl);
   color: var(--color-white);
