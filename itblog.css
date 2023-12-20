@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+p{
+  font-size: lighter;
+}
 .frame10,
 .frame11 {
   position: absolute;
@@ -23,7 +26,7 @@
   height: 84px;
   object-fit: cover;
 }
-.intro-to-computing1,
+.Title,
 .it-111-blog-entries1,
 .it-blog-post {
   position: absolute;
@@ -33,7 +36,7 @@
   width: 268px;
   height: 30px;
 }
-.intro-to-computing1,
+.Title,
 .it-blog-post {
   top: 0;
   left: 150px;
