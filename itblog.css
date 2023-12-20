@@ -1,3 +1,8 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
 .frame10,
 .frame11 {
   position: absolute;
