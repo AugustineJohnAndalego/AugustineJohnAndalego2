@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inria-serif: "Inria Serif";
+  --font-jacques-francois: "Jacques Francois";
+  --font-itim: Itim;
+  --font-inter: Inter;
+  --font-inika: Inika;
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+  --font-size-45xl: 64px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gray: #080809;
+  --color-orangered: #ff6006;
+  --color-white: #fff;
+  --color-lavenderblush: #fdf1f1;
+  --color-snow-100: #fdfafa;
+  --color-snow-200: #fcf2f2;
+  --color-deepskyblue: #01a7ee;
+}

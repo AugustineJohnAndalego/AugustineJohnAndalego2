@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./flex-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jacques Francois:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="flex-page2">
+      <div class="frame22">
+        <img class="subtract-icon2" alt="" src="./public/subtract@2x.png" />
+
+        <div class="flex-page3">Flex Page</div>
+        <div class="intro-to-computing2">Intro To Computing</div>
+        <div class="flex-page4">Flex Page</div>
+        <div class="frame23" id="frameContainer">
+          <div class="home-link-2" id="homeLink2"></div>
+          <div class="home3">Home</div>
+        </div>
+        <div class="frame24">
+          <div class="blog-link-2" id="blogLink2"></div>
+          <div class="it-111-blog-entries2" id="iT111BlogEntries">
+            IT-111 Blog Entries
+          </div>
+        </div>
+      </div>
+      <div class="frame25">
+        <div class="frame26">
+          <img
+            class="rectangle-icon"
+            alt=""
+            src="./public/rectangle-2@2x.png"
+          />
+
+          <div class="frame27">
+            <div class="welcome-to-my-container">
+              <p class="welcome-to-my">Welcome to my Flex Page.</p>
+              <p class="welcome-to-my">
+                There is someone im very proud to have, it's my incredible mom.
+                She's not just family; she's been my constant support and
+                cheerleader. In every high and low, her love and guidance have
+                been my compass. From late-night talks to the unwavering belief
+                in my potential, she's shaped me in ways I can't measure. Her
+                influence is my true source of pride, a reminder of the values
+                that matter most. Cheers to the woman who's been the driving
+                force behind my journey.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var homeLink2 = document.getElementById("homeLink2");
+      if (homeLink2) {
+        homeLink2.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var blogLink2 = document.getElementById("blogLink2");
+      if (blogLink2) {
+        blogLink2.addEventListener("click", function (e) {
+          window.location.href = "./itblog.html";
+        });
+      }
+      
+      var iT111BlogEntries = document.getElementById("iT111BlogEntries");
+      if (iT111BlogEntries) {
+        iT111BlogEntries.addEventListener("click", function (e) {
+          window.location.href = "./itblog.html";
+        });
+      }
+      </script>
+  </body>
+</html>

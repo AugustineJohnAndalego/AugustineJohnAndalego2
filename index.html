@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jacques Francois:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <a
+        class="f"
+        href="https://www.facebook.com/profile.php?id=100073237161182&mibextid=hIlR13"
+        target="_blank"
+        >F</a
+      >
+      <a
+        class="t"
+        href="https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40aj601351%3F_t%3D8iI8PGC5pYo%26_r%3D1&h=AT3_mR76uibZuW512ySZN1qfGmMUjMYdlW-NbUCvqGkPpWtFL-iDmxwb7EHOWY7i93jgZZ0jJub_2XSS5zDq3D7cyctoBYGoVWroQKgCLxWjoMGYtDAxm8oQ7SR3DEaYFtekLg"
+        target="_blank"
+        >T</a
+      >
+      <div class="frame">
+        <div class="frame1">
+          <div class="blog-link-1" id="blogLink1"></div>
+          <div class="it-111-blog-entries" id="iT111BlogEntries">
+            IT-111 Blog Entries
+          </div>
+          <div class="home1">Home</div>
+          <div class="flex-link-1" id="flexLink1"></div>
+          <div class="flex-page" id="flexPageText">Flex Page</div>
+        </div>
+        <img class="selfpic-icon" alt="" src="./public/selfpic@2x.png" />
+
+        <img class="frame-child" alt="" src="./public/ellipse-1@2x.png" />
+
+        <div class="fb">
+          <img
+            class="facebook-icon"
+            alt=""
+            src="./public/facebook@2x.png"
+            id="facebookImage"
+          />
+        </div>
+        <div class="tiktok">
+          <img
+            class="facebook-icon"
+            alt=""
+            src="./public/tiktok2-with-color-1@2x.png"
+            id="tikTok2WithColor1"
+          />
+        </div>
+      </div>
+      <div class="frame2">
+        <div class="frame3">
+          <div class="frame4">
+            <img class="subtract-icon" alt="" src="./public/subtract@2x.png" />
+
+            <div class="intro-to-computing">Intro To Computing</div>
+          </div>
+          <div class="hello-my-name">Hello, My Name is</div>
+        </div>
+        <div class="frame5">
+          <div class="frame6">
+            <div class="augustine-john-d">Augustine John D. Andalego</div>
+          </div>
+          <b class="i-am-a-container">
+            <p class="i-am-a">
+              i am a 19 year old student from Purok 3, Kalasungay, Malaybalay
+              City, Bukidnon.I'm a student currently navigating the exciting
+              world of Technology at Bukidnon State University (BSU). How I see
+              myself in 8 years, i can imagine
+            </p>
+            <p class="i-am-a">
+              ive probably found myself a job im into, its probably gonna be
+              tough to get there but ill push through no matter how difficult it
+              may be.
+            </p>
+          </b>
+          <div class="frame7">
+            <div class="frame8">
+              <b class="playing-video-games-container">
+                <p class="i-am-a">-Playing video games</p>
+                <p class="i-am-a">&nbsp;</p>
+                <p class="i-am-a">-Watching Anime</p>
+                <p class="i-am-a">&nbsp;</p>
+                <p class="i-am-a">-Reading Manga</p>
+              </b>
+              <b class="playing-video-games-container">
+                <p class="i-am-a">-Cooking</p>
+                <p class="i-am-a">&nbsp;</p>
+                <p class="i-am-a">-Listening to music</p>
+                <p class="i-am-a">&nbsp;</p>
+              </b>
+            </div>
+          </div>
+          <div class="frame9">
+            <b class="my-skills-and">My Skills and Hobbies</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var blogLink1 = document.getElementById("blogLink1");
+      if (blogLink1) {
+        blogLink1.addEventListener("click", function (e) {
+          window.location.href = "./itblog.html";
+        });
+      }
+      
+      var iT111BlogEntries = document.getElementById("iT111BlogEntries");
+      if (iT111BlogEntries) {
+        iT111BlogEntries.addEventListener("click", function (e) {
+          window.location.href = "./itblog.html";
+        });
+      }
+      
+      var flexLink1 = document.getElementById("flexLink1");
+      if (flexLink1) {
+        flexLink1.addEventListener("click", function (e) {
+          window.location.href = "./flex-page.html";
+        });
+      }
+      
+      var flexPageText = document.getElementById("flexPageText");
+      if (flexPageText) {
+        flexPageText.addEventListener("click", function (e) {
+          window.location.href = "./flex-page.html";
+        });
+      }
+      
+      var facebookImage = document.getElementById("facebookImage");
+      if (facebookImage) {
+        facebookImage.addEventListener("click", function () {
+          window.location.href =
+            "https://www.facebook.com/profile.php?id=100073237161182&mibextid=hIlR13";
+        });
+      }
+      
+      var tikTok2WithColor1 = document.getElementById("tikTok2WithColor1");
+      if (tikTok2WithColor1) {
+        tikTok2WithColor1.addEventListener("click", function () {
+          window.location.href =
+            "https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40aj601351%3F_t%3D8iI8PGC5pYo%26_r%3D1&h=AT1siHF20LGA4sLAnYozkm_K2Nv_Vo1Q73XDlxgaPquRYhQCeVGmVOTu2pDNHGYmyzPyOJ6xQSonbXNbXhnUSonysgG6XLgbLfOq8k4lE9UjnZp4-1a-eZbKnIjKwt4DfwM3wQ";
+        });
+      }
+      </script>
+  </body>
+</html>
